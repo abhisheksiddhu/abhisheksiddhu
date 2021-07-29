@@ -1,0 +1,16 @@
+﻿@page
+@model Web.Pages.CSRFModel
+@{
+}
+
+<h1>Cross-site Request Forgery</h1>
+
+<form method="get">
+    <input type="text" name="add" />
+    <button type="submit">Add</button>
+</form>
+
+@foreach (var post in Model.ApplicationState.CSRFPosts)
+{
+    <p>@post</p>
+}

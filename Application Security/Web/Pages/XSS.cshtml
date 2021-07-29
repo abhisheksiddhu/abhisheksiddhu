@@ -1,0 +1,16 @@
+﻿@page
+@model Web.Pages.XSSModel
+@{
+}
+
+<h1>Cross-site Scripting</h1>
+
+<form method="get">
+    <input type="text" name="add" />
+    <button type="submit">Add</button>
+</form>
+
+@foreach (var post in Model.ApplicationState.XSSPosts)
+{
+    <p>@Html.Raw(post)</p>
+}

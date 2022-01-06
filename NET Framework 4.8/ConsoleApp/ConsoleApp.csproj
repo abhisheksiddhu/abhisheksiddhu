@@ -43,6 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1 - Introduction\0 - Navigation.cs" />
+    <Compile Include="1 - Introduction\1 - CodeOrganization.cs" />
+    <Compile Include="1 - Introduction\3 - Types.cs" />
+    <Compile Include="1 - Introduction\2 - Variables.cs" />
+    <Compile Include="Calculator\Basic.cs" />
+    <Compile Include="Calculator\WithStringSplit.cs" />
+    <Compile Include="Navigation.cs" />
+    <Compile Include="OOPS\Basics.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -11,7 +11,9 @@ namespace ConsoleApp._1___Introduction
         public static void Run()
         {
             //Variables.Run();
-            Types.Run();
+            //Types.Run();
+            //Methods.Run();
+            DecisionStructures.Run();
         }
     }
 }

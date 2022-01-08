@@ -6,6 +6,7 @@ Here you can find the code that I've used in my blogs, videos and courses.
 
 - [Application Security](./Application%20Security)
 - [.NET Framework 4.8](./NET%20Framework%204.8)
+- [.NET 6](./NET%206)
 
 <!--
 **abhisheksiddhu/abhisheksiddhu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

@@ -1,0 +1,25 @@
+﻿@page
+@model WebApplication_Basic.Pages.TestModel
+@{
+}
+
+<h1>Test form</h1>
+
+<form method="post">
+    <div class="row">
+        <label>Name</label>
+        <input type="text" name="Name" />
+    </div>
+    <div class="row">
+        <label>Email</label>
+        <input type="text" name="Email" />
+    </div>
+    <div class="row">
+        <label>UserName</label>
+        <input type="text" name="UserName" />
+    </div>
+    <button type="submit">Submit</button>
+</form>
+
+<hr/>
+@Model.User.ToString()

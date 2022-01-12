@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp._1___Introduction
 {
@@ -53,20 +51,20 @@ namespace ConsoleApp._1___Introduction
             // Type Casting
             int a = 5;
             float b = 6.2F;
-            float c = (float)a + b;
+            float c = a + b;
             int d = a + (int)b;
 
             Console.WriteLine(c);
             Console.WriteLine(d);
 
-            Int32 e = -5;
+            int e = -5;
             uint f = Convert.ToUInt32(e);
             Console.WriteLine(e);
             Console.WriteLine(f);
 
             char x = 'a';
-            String y = "hello";
-            String z = x + y;
+            string y = "hello";
+            string z = x + y;
         }
 
         public static void TypeArithmetics()

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp._1___Introduction
 {
@@ -50,12 +46,12 @@ namespace ConsoleApp._1___Introduction
         public static void ForEachLoop()
         {
             int[] a = { 54, 55, 85, 94, 946, 781, 753, 759 };
-            for(int i = 0;i < a.Length; i++)
+            for (int i = 0; i < a.Length; i++)
             {
                 Console.WriteLine(a[i]);
             }
 
-            foreach(int val in a)
+            foreach (int val in a)
             {
                 Console.WriteLine(val);
             }

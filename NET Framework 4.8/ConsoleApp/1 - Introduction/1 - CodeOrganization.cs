@@ -15,17 +15,17 @@
 
     #region
 
-    class MyClass1
+    internal class MyClass1
     {
 
     }
 
-    class MyClass2
+    internal class MyClass2
     {
 
     }
 
-    class MyClass3
+    internal class MyClass3
     {
 
     }

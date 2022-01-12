@@ -49,6 +49,7 @@
     <Compile Include="1 - Introduction\2 - Variables.cs" />
     <Compile Include="1 - Introduction\4 - Methods.cs" />
     <Compile Include="1 - Introduction\5 - Decision Structures.cs" />
+    <Compile Include="1 - Introduction\6 - Loops.cs" />
     <Compile Include="Calculator\Basic.cs" />
     <Compile Include="Calculator\WithStringSplit.cs" />
     <Compile Include="Navigation.cs" />

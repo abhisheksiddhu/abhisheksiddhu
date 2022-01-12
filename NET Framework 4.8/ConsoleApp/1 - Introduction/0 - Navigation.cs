@@ -13,7 +13,8 @@ namespace ConsoleApp._1___Introduction
             //Variables.Run();
             //Types.Run();
             //Methods.Run();
-            DecisionStructures.Run();
+            //DecisionStructures.Run();
+            Loops.Run();
         }
     }
 }

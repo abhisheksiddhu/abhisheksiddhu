@@ -52,6 +52,7 @@
     <Compile Include="1 - Introduction\6 - Loops.cs" />
     <Compile Include="2 - OOPS\0 - Navigation.cs" />
     <Compile Include="2 - OOPS\1 - Objects.cs" />
+    <Compile Include="2 - OOPS\2 - Constructors.cs" />
     <Compile Include="Calculator\Basic.cs" />
     <Compile Include="Calculator\WithStringSplit.cs" />
     <Compile Include="Navigation.cs" />

@@ -6,25 +6,23 @@ namespace ConsoleApp._2___OOPS
     {
         public static void Run()
         {
-
+            //ObjectCreationAndAccess();
+            Equality();
+            //ValueOrReferenceType();
         }
 
         public static void ObjectCreationAndAccess()
         {
-            User1 user1 = new User1
-            {
-                Name = "Abhishek",
-                Email = "abhi@email"
-            };
+            User1 user1 = new User1();
+            user1.Name = "Abhishek";
+            user1.Email = "abhi@email";
 
             Console.WriteLine(user1.Name);
             Console.WriteLine(user1.Email);
 
-            User1 user2 = new User1
-            {
-                Name = "Govind",
-                Email = "govind@email"
-            };
+            User1 user2 = new User1();
+            user2.Name = "Govind";
+            user2.Email = "govind@email";
 
             Console.WriteLine(user2.Name);
             Console.WriteLine(user2.Email);
@@ -36,18 +34,14 @@ namespace ConsoleApp._2___OOPS
             int b = 1;
             Console.WriteLine(a == b);
 
+            User1 user1 = new User1();
+            user1.Name = "Abhishek";
 
-            User1 user1 = new User1
-            {
-                Name = "Abhishek"
-            };
-
-            User1 user2 = new User1
-            {
-                Name = "Abhishek"
-            };
+            User1 user2 = new User1();
+            user2.Name = "Abhishek";
 
             Console.WriteLine(user1 == user2);
+            Console.WriteLine(user1.Equals(user2));
             Console.WriteLine(user1.Name == user2.Name);
         }
 
@@ -67,10 +61,8 @@ namespace ConsoleApp._2___OOPS
             Console.WriteLine(b);
 
 
-            User1 user1 = new User1
-            {
-                Name = "Abhishek"
-            };
+            User1 user1 = new User1();
+            user1.Name = "Abhishek";
 
             User1 user2 = user1;
 

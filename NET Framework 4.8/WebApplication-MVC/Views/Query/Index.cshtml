@@ -1,0 +1,50 @@
+﻿@model IEnumerable<WebApplication_MVC.Models.BookViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Queries</h2>
+
+<ul class="nav navbar-nav">
+    <li>@Html.ActionLink("Default", "Index", new { id = 0 })</li>
+    <li>@Html.ActionLink("Simple Where", "Index", new { id = 1 })</li>
+    <li>@Html.ActionLink("Nested Where", "Index", new { id = 2 })</li>
+    <li>@Html.ActionLink("Pagination", "Index", new { id = 3 })</li>
+</ul>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PublicationName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ISBN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Authors)
+        </th>
+    </tr>
+
+    @foreach (var book in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => book.PublicationName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => book.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => book.ISBN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => book.Authors)
+            </td>
+        </tr>
+    }
+
+</table>

@@ -6,7 +6,7 @@ namespace WebApplication_MVC.Models
     {
         public ApplicationDbContext() : base("name=Default")
         {
-            Database.Log = message => System.Diagnostics.Debug.WriteLine(message);
+            Database.Log = dbQuery => System.Diagnostics.Debug.WriteLine(dbQuery);
         }
 
         public DbSet<Book> Books { get; set; }

@@ -53,10 +53,11 @@
     <Compile Include="2 - OOPS\0 - Navigation.cs" />
     <Compile Include="2 - OOPS\1 - Objects.cs" />
     <Compile Include="2 - OOPS\2 - Constructors.cs" />
+    <Compile Include="2 - OOPS\3 - Modifiers.cs" />
+    <Compile Include="2 - OOPS\4 - Parameters.cs" />
     <Compile Include="Calculator\Basic.cs" />
     <Compile Include="Calculator\WithStringSplit.cs" />
     <Compile Include="Navigation.cs" />
-    <Compile Include="OOPS\Basics.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

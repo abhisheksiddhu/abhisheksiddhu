@@ -11,7 +11,8 @@ namespace ConsoleApp._2___OOPS
         public static void Run()
         {
             //ObjectConstruction();
-            Structures();
+            //Structures();
+            InstanceMembers();
         }
 
         public static void ObjectConstruction()
@@ -43,6 +44,26 @@ namespace ConsoleApp._2___OOPS
             Console.WriteLine(struct1.Name);
             Console.WriteLine(struct2.Name);
         }
+
+        public static void InstanceMembers()
+        {
+            User2 user1 = new User2();
+            user1.Name = "Test Name";
+            user1.Email = "Test Email";
+            user1.Password = "Test Password";
+            user1.UserName = "Test Username";
+
+            user1.PrintData();
+
+
+            User2 user2 = new User2();
+            user2.Name = "Test2 Name";
+            user2.Email = "Test2 Email";
+            user2.Password = "Test2 Password";
+            user2.UserName = "Test2 Username";
+
+            user2.PrintData();
+        }
     }
 
     public class User2
@@ -55,6 +76,14 @@ namespace ConsoleApp._2___OOPS
         public User2()
         {
             Name = "Default Name";
+        }
+
+        public void PrintData()
+        {
+            Console.WriteLine(Name);
+            Console.WriteLine(Password);
+            Console.WriteLine(Email);
+            Console.WriteLine(UserName);
         }
     }
 

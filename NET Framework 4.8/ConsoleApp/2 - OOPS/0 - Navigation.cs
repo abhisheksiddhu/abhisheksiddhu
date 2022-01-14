@@ -5,7 +5,9 @@
         public static void Run()
         {
             //Objects.Run();
-            Constructors.Run();
+            //Constructors.Run();
+            //Modifiers.Run();
+            Parameters.Run();
         }
     }
 }

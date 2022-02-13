@@ -1,0 +1,18 @@
+﻿@model List<DummyUser>
+
+<table>
+    <thead>
+        <tr>
+            <td>FullName</td>
+            <td>DateOfBirth</td>
+            <td>Email</td>
+            <td>Phone</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <partial name="_DummyUserRow" model="user"/>
+        }
+    </tbody>
+</table>

@@ -7,7 +7,10 @@
             //Objects.Run();
             //Constructors.Run();
             //Modifiers.Run();
-            Parameters.Run();
+            //Parameters.Run();
+            //Inheritance.Run();
+            Abstraction.Run();
+            //Interfaces.Run();
         }
     }
 }

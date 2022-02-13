@@ -2,11 +2,14 @@
 {
     public class Navigation
     {
-        public static void Run() =>
+        public static void Run()
+        {
             //Variables.Run();
             //Types.Run();
             //Methods.Run();
             //DecisionStructures.Run();
-            Loops.Run();
+            //Loops.Run();
+            Samples.Run();
+        }
     }
 }

@@ -50,11 +50,15 @@
     <Compile Include="1 - Introduction\4 - Methods.cs" />
     <Compile Include="1 - Introduction\5 - Decision Structures.cs" />
     <Compile Include="1 - Introduction\6 - Loops.cs" />
+    <Compile Include="1 - Introduction\Samples.cs" />
     <Compile Include="2 - OOPS\0 - Navigation.cs" />
     <Compile Include="2 - OOPS\1 - Objects.cs" />
     <Compile Include="2 - OOPS\2 - Constructors.cs" />
     <Compile Include="2 - OOPS\3 - Modifiers.cs" />
     <Compile Include="2 - OOPS\4 - Parameters.cs" />
+    <Compile Include="2 - OOPS\5 - Inheritance.cs" />
+    <Compile Include="2 - OOPS\6 - Abstraction.cs" />
+    <Compile Include="2 - OOPS\7 - Interfaces.cs" />
     <Compile Include="Calculator\Basic.cs" />
     <Compile Include="Calculator\WithStringSplit.cs" />
     <Compile Include="Navigation.cs" />

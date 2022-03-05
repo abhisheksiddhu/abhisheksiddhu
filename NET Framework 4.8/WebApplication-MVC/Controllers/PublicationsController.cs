@@ -10,7 +10,7 @@ namespace WebApplication_MVC.Controllers
     public class PublicationsController : Controller
     {
         private readonly ApplicationDbContext db = new ApplicationDbContext();
-
+                
         // GET: Publications
         public async Task<ActionResult> Index()
         {

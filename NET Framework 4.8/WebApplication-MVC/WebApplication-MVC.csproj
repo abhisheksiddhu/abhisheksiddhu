@@ -136,6 +136,10 @@
     <Compile Include="Migrations\202201121536367_InitialCreate.designer.cs">
       <DependentUpon>202201121536367_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202261221491_make names required.cs" />
+    <Compile Include="Migrations\202202261221491_make names required.designer.cs">
+      <DependentUpon>202202261221491_make names required.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -217,6 +221,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202201121536367_InitialCreate.resx">
       <DependentUpon>202201121536367_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202261221491_make names required.resx">
+      <DependentUpon>202202261221491_make names required.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

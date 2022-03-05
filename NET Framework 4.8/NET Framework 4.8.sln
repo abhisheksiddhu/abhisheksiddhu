@@ -15,6 +15,35 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp", "WindowsFormsApp\WindowsFormsApp.csproj", "{B5CCED46-E578-45DB-B0BB-F05271C7037D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web-advanced", "web-advanced", "{E16B7D71-0051-4E8C-88A1-99B1D6C2D0CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication-UI", "WebApplication-UI\WebApplication-UI.csproj", "{080A08B7-9DE7-40EE-9E16-63918E1C8C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication-API", "WebApplication-API\WebApplication-API.csproj", "{80D53CCD-508F-4EE9-B426-58018AE5D999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication-WebForms", "WebApplication-WebForms\WebApplication-WebForms.csproj", "{2912A88E-5C08-4734-9783-8CAB522B6F1F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebPages", "WebPages\", "{4B75664C-C764-47EA-8FF3-2A6CAC4659CC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1136"
+		Debug.AspNetCompiler.PhysicalPath = "WebPages\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1136\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1136"
+		Release.AspNetCompiler.PhysicalPath = "WebPages\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1136\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1136"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +62,22 @@ Global
 		{B5CCED46-E578-45DB-B0BB-F05271C7037D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5CCED46-E578-45DB-B0BB-F05271C7037D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5CCED46-E578-45DB-B0BB-F05271C7037D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080A08B7-9DE7-40EE-9E16-63918E1C8C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080A08B7-9DE7-40EE-9E16-63918E1C8C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080A08B7-9DE7-40EE-9E16-63918E1C8C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080A08B7-9DE7-40EE-9E16-63918E1C8C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D53CCD-508F-4EE9-B426-58018AE5D999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D53CCD-508F-4EE9-B426-58018AE5D999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D53CCD-508F-4EE9-B426-58018AE5D999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D53CCD-508F-4EE9-B426-58018AE5D999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2912A88E-5C08-4734-9783-8CAB522B6F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2912A88E-5C08-4734-9783-8CAB522B6F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2912A88E-5C08-4734-9783-8CAB522B6F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2912A88E-5C08-4734-9783-8CAB522B6F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B75664C-C764-47EA-8FF3-2A6CAC4659CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B75664C-C764-47EA-8FF3-2A6CAC4659CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B75664C-C764-47EA-8FF3-2A6CAC4659CC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B75664C-C764-47EA-8FF3-2A6CAC4659CC}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +86,10 @@ Global
 		{7DA6BED8-E167-471C-94B2-7FB0AA1D7CF0} = {69DA0680-664C-4D65-B44B-4A01F456C321}
 		{DF7B9A88-AF3B-440B-8726-921B2D8B998A} = {6B0310C6-4771-40D9-A127-F716F5F19448}
 		{B5CCED46-E578-45DB-B0BB-F05271C7037D} = {533F2786-4C57-494C-8857-6E818DAC5E84}
+		{080A08B7-9DE7-40EE-9E16-63918E1C8C4A} = {E16B7D71-0051-4E8C-88A1-99B1D6C2D0CA}
+		{80D53CCD-508F-4EE9-B426-58018AE5D999} = {E16B7D71-0051-4E8C-88A1-99B1D6C2D0CA}
+		{2912A88E-5C08-4734-9783-8CAB522B6F1F} = {69DA0680-664C-4D65-B44B-4A01F456C321}
+		{4B75664C-C764-47EA-8FF3-2A6CAC4659CC} = {69DA0680-664C-4D65-B44B-4A01F456C321}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D34FB8C9-55FB-4315-B8CE-F85C1A0A96A3}

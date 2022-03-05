@@ -19,7 +19,7 @@ namespace WebApplication_MVC.Controllers
             return PartialView("_DummyUserRow", user);
         }
 
-        [CustomActionFilter]
+        [CustomActionFilter,Microsoft.AspNetCore.Mvc.RequestSizeLimit(2000)]        
         public IActionResult ActionFilter()
         {
             object? value = ControllerContext.HttpContext.Items["filterkey"];

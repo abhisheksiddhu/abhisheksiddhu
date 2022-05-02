@@ -44,6 +44,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebPages", "WebPages\", "{4
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web-auth", "web-auth", "{651710E7-735C-4694-B037-4B68728E7A4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

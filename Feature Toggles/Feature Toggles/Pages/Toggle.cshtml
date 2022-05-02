@@ -1,0 +1,12 @@
+﻿@page
+@model Feature_Toggles.Pages.ToggleModel
+@addTagHelper *, Microsoft.FeatureManagement.AspNetCore
+
+@using Feature_Toggles
+@using Microsoft.FeatureManagement.Mvc
+@{
+}
+
+
+<h2> Toggled Feature</h2>
+<feature name="@Flags.Toggle">Enabled</feature>

@@ -1,0 +1,9 @@
+﻿@page
+@model IndexModel
+@{
+	ViewData["Title"] = "Home page";
+}
+
+<h2> Toggled Feature</h2><feature name="@Flags.Toggle">Enabled</feature>
+<h2> Percentage Feature</h2><feature name="@Flags.Percentage">Enabled</feature>
+<h2> TimeWindow Feature</h2><feature name="@Flags.TimeWindow">Enabled</feature>

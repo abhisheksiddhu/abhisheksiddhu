@@ -1,0 +1,12 @@
+﻿@page
+@model Feature_Toggles.Pages.TimeWindowModel
+@addTagHelper *, Microsoft.FeatureManagement.AspNetCore
+
+@using Feature_Toggles
+@using Microsoft.FeatureManagement.Mvc
+@{
+}
+
+
+<h2> TimeWindow Feature</h2>
+<feature name="@Flags.TimeWindow">Enabled</feature>
